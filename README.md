@@ -1,6 +1,13 @@
+
 # STM32G4-Based Autonomous Robotics Firmware
 
 This repository contains the production-grade embedded firmware developed for an autonomous mobile robot built on the STMicroelectronics STM32G4 MCU architecture. Utilizing FreeRTOS for deterministic multi-threaded task management, the system integrates closed-loop locomotion control, dynamic power monitoring, distance telemetry tracking, and competition match-strategy execution.
+
+<img width="1537" height="2048" alt="69ca2a04-c7fc-42c1-9bf3-5930cfb1a68c" src="https://github.com/user-attachments/assets/f9fbb1dd-80be-46dd-b041-9cde56046e68" />
+
+<img width="2558" height="1327" alt="pcb_2_ninja" src="https://github.com/user-attachments/assets/132ad6d9-ed92-49b5-bd7e-7b22cb163798" />
+
+
 
 ## System Architecture
 
