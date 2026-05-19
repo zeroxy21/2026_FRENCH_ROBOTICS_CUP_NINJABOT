@@ -45,14 +45,11 @@ The architecture relies heavily on specific hardware peripherals tailored for ro
 
 ## Technical Implementations
 
-### Locomotion & Smart Actuators (`AXL_A12.c`)
-Implements low-level instruction packet assembly and dynamic transceiver direction switching (`HAL_HalfDuplex_EnableTransmitter` / `HAL_HalfDuplex_EnableReceiver`) to drive Dynamixel AX-12 servos. The driver supports both Wheel Mode for continuous locomotion and Joint Mode for precise angular positioning. A discrete PID control loop structure is provided for wheel velocity stabilization.
+### Locomotion & Smart Actuators (`XL430.c`)
+Implements low-level instruction packet assembly and dynamic transceiver direction switching (`HAL_HalfDuplex_EnableTransmitter` / `HAL_HalfDuplex_EnableReceiver`) to drive Dynamixel XL430 servos. The driver supports both Wheel Mode for continuous locomotion and Joint Mode for precise angular positioning. A discrete PID control loop structure is provided for wheel velocity stabilization.
 
 ### Intelligent Power Management (`Battery_manager.c` & `Neopixel.c`)
 Applies a hardware-calibrated ADC tracking pipeline to interpret real-time cell voltage. Readings are filtered through an integrated state machine that shifts between discrete operational zones (`BAT_FULL`, `BAT_MEDIUM`, `BAT_LOW`, `BAT_CRITICAL`). Visual feedback is propagated through a non-blocking addressable RGB strip driver utilizing a Timer PWM signal backed by dedicated DMA channel memory transfers to enforce rigid WS2812 signal timing requirements without CPU overhead.
-
-### Auxiliary Actuations (`kst.c` & `pump.c`)
-Handles auxiliary mechanics through microsecond-accurate PWM pulse manipulation (ranging from 500µs to 2500µs) for KST high-torque positioning servos. Additionally, it controls the starting and stopping sequences of an internal vacuum relay subsystem used for element picking and manipulation during the match sequence.
 
 ---
 
