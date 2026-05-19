@@ -1,0 +1,14 @@
+../Core/Src/AXL_A12.c:26:6:AX12_Transmit_Safe	24	static
+../Core/Src/AXL_A12.c:44:6:Set_Speed	40	static
+../Core/Src/AXL_A12.c:72:6:Set_Wheel_Mode	32	static
+../Core/Src/AXL_A12.c:91:9:calcul_checksum	24	static
+../Core/Src/AXL_A12.c:102:6:Set_Servo_Mode	32	static
+../Core/Src/AXL_A12.c:125:10:AX12_Read_2Bytes	40	static
+../Core/Src/AXL_A12.c:159:10:Read_Angle	16	static
+../Core/Src/AXL_A12.c:163:10:Read_Speed	16	static
+../Core/Src/AXL_A12.c:167:10:Angle_From_Wheel	24	static
+../Core/Src/AXL_A12.c:178:6:Set_Angle	32	static
+../Core/Src/AXL_A12.c:202:10:PID_Controller	48	static
+../Core/Src/AXL_A12.c:219:6:Command_Vel	24	static
+../Core/Src/AXL_A12.c:232:6:Go_Straight	24	static
+../Core/Src/AXL_A12.c:244:6:Square_Test	24	static

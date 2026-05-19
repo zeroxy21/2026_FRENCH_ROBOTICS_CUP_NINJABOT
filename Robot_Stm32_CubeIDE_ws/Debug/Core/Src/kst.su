@@ -1,0 +1,2 @@
+../Core/Src/kst.c:17:6:KST_Init	8	static
+../Core/Src/kst.c:26:6:KST_Servo_SetAngle	32	static

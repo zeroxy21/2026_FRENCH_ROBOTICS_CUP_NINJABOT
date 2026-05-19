@@ -1,0 +1,153 @@
+(footprint "XT30-F-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "XT30-F"
+		(at 2.3 3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b67f8fda-3002-461f-83a6-2c55455d3bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XT30-F-2P"
+		(at 3.1 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2803b52-8503-476d-b197-32b9cb1be894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b2f0012-5798-47ce-bf55-a22e8ed951fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33c3a685-ce1b-42ef-b410-a7f8203a8a78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fd7d87e-8b1a-4648-bbe1-47b3f0535d46")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end 5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51e7716a-ba61-4c04-a5fc-f3d05760a507")
+	)
+	(fp_line
+		(start 5 -2.6)
+		(end -2.6 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4bc8826e-4fe1-4ef9-b07d-9e0becc495bc")
+	)
+	(fp_arc
+		(start 5 -2.6)
+		(mid 7.6 0)
+		(end 5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef80d5ec-8bfd-4f1b-a21d-0f9540589310")
+	)
+	(fp_text user "-"
+		(at 7.8 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0b45b24-832a-45d8-80fa-a4b971a9b4a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -4 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bc5d9869-d091-4516-aa95-16ad652cd59e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "XT30-femelle-2pins"
+		(at 2.9 6.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99fcc632-7361-4ac1-ad27-64c12b93d79e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8163ba5d-24d3-4114-a247-3e147ddec78a")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e6ed686-220b-42fa-8553-13c78e3bf564")
+	)
+	(embedded_fonts no)
+)

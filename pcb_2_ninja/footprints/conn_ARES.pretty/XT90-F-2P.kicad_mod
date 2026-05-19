@@ -1,0 +1,154 @@
+(footprint "XT90-F-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "XT90-F"
+		(at 5.1 5.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70734502-16c8-402a-adbd-c723f9c30fd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XT90-F-2P"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "759b7f77-5dd8-4e58-82e6-14643dc6895d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cec23bd-fe18-4f61-a4b9-b1e2b4562eba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2384b00-8ebe-40e0-8724-0f6e720537f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.9 -4.95)
+		(end -4.9 4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f57a0ac3-4ad8-410d-8237-ef8f5b659093")
+	)
+	(fp_line
+		(start -4.9 4.95)
+		(end 11 4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ca36026-a69a-4c86-bb38-e36e4baad86c")
+	)
+	(fp_line
+		(start 11 -4.95)
+		(end -4.9 -4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e46acc4-c842-4cd3-9bd9-3eda0b236452")
+	)
+	(fp_arc
+		(start 11 -4.95)
+		(mid 15.95 0)
+		(end 11 4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a833af7-66c0-40af-9636-e30d7684046f")
+	)
+	(fp_text user "+"
+		(at -6.8 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7494ad2b-4660-4972-9e49-2e159439d7f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 16.7 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9dcbdf71-3bc7-4217-896f-8865224a46f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "XT90-F"
+		(at 5.05 7.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28a44e4f-bf95-4684-84ad-51e1860894e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 8 8)
+		(drill 6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3487447f-1c6a-49e0-9c57-39d37f3df1b6")
+	)
+	(pad "2" thru_hole circle
+		(at 11 0)
+		(size 8 8)
+		(drill 6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff33b9e5-1973-4363-b16c-e1f271b541f1")
+	)
+	(embedded_fonts no)
+)

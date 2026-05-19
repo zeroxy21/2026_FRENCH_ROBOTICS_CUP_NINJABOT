@@ -1,0 +1,442 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f798fd68-e00c-4f19-bfce-9e2c6b875d49")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 100.33 21.59)
+		(size 63.5 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "158d6c43-3d54-41ae-865c-57b782c68d10")
+		(property "Sheetname" "Power"
+			(at 100.33 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 100.33 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_BAT" input
+			(at 156.21 58.42 270)
+			(uuid "58657f28-1dbb-4af7-b416-4957b13cabd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_BAT" output
+			(at 148.59 58.42 270)
+			(uuid "e540b1c9-02bc-4b0c-842f-c765656569f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pcb_2_ninja"
+				(path "/f798fd68-e00c-4f19-bfce-9e2c6b875d49"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 67.31)
+		(size 57.15 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23e8d881-272b-425e-a5b3-dbfeafe7a813")
+		(property "Sheetname" "Motors"
+			(at 200.66 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motors.kicad_sch"
+			(at 200.66 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PUMP" input
+			(at 200.66 85.09 180)
+			(uuid "6130878e-daeb-4cd9-a86b-f778f0da901e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO1" input
+			(at 200.66 93.98 180)
+			(uuid "999a62c6-9d06-458c-8e0a-d87485491a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO2" input
+			(at 200.66 97.79 180)
+			(uuid "27d870b5-47cf-4c9e-8708-d225bf61a458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO3" input
+			(at 200.66 101.6 180)
+			(uuid "46aa56ca-c47d-40ee-9012-22af1bc095f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AX12-A" bidirectional
+			(at 200.66 77.47 180)
+			(uuid "66fcc20a-db28-4566-96a9-23b466cd3f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pcb_2_ninja"
+				(path "/f798fd68-e00c-4f19-bfce-9e2c6b875d49"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 39.37)
+		(size 48.26 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6df3763-4196-4078-adce-df07cfce6c5d")
+		(property "Sheetname" "Sensors"
+			(at 22.86 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 22.86 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TOF1_INTERRUPT" output
+			(at 71.12 45.72 0)
+			(uuid "9230c78d-d7eb-4e8c-8c53-b73a9efdce09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOF1_XSHUT" input
+			(at 71.12 49.53 0)
+			(uuid "6bcd0dae-84ca-49a8-aa84-1917eed6e1ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOF2_INTERRUPT" output
+			(at 71.12 67.31 0)
+			(uuid "cb7a1be2-c971-4563-9437-d46f31886e9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOF2_XSHUT" input
+			(at 71.12 71.12 0)
+			(uuid "0e16b222-83e6-4c74-beef-fedb339d6c5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOF_SCL" input
+			(at 71.12 55.88 0)
+			(uuid "61f63b81-b9d4-42be-9c83-38a7dcb70ca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TOF_SDA" bidirectional
+			(at 71.12 59.69 0)
+			(uuid "b186750e-83e6-45c4-8ff2-532e7758e8db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcb_2_ninja"
+				(path "/f798fd68-e00c-4f19-bfce-9e2c6b875d49"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 66.04)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f336b9c4-7d4d-4ee7-bf76-fbdd79cebbe1")
+		(property "Sheetname" "CPU"
+			(at 95.25 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 95.25 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PUMP" output
+			(at 171.45 87.63 0)
+			(uuid "85a45216-2621-40e8-8905-b316e48dd109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO1" output
+			(at 156.21 116.84 270)
+			(uuid "644c0b52-cc9b-4795-905a-a65e72e29ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO2" output
+			(at 147.32 116.84 270)
+			(uuid "3e44e9a7-2990-43ce-8602-829e4bc1a94e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO3" output
+			(at 138.43 116.84 270)
+			(uuid "bfbca997-4721-488c-a15a-8915cc517716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF1_INTERRUPT" input
+			(at 95.25 68.58 180)
+			(uuid "695a6ed8-dcec-4444-a213-adab4544e3fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF1_XSHUT" output
+			(at 95.25 72.39 180)
+			(uuid "71955799-8d61-4d88-8d4d-503bb3649ce1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF2_INTERRUPT" input
+			(at 95.25 95.25 180)
+			(uuid "41d74e72-d196-46b8-95aa-5ac7de4f6313")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF2_XSHUT" output
+			(at 95.25 99.06 180)
+			(uuid "05792901-93dd-48b3-aa0a-7c86bfc7fcd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_SCL" bidirectional
+			(at 95.25 83.82 180)
+			(uuid "fa378bd7-93d8-4ecf-81cc-d5cf20a34eca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TOF_SDA" bidirectional
+			(at 95.25 87.63 180)
+			(uuid "65db75bb-1ff2-4e6a-abdd-2ecdf514e528")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_BAT" output
+			(at 171.45 95.25 0)
+			(uuid "03348d5b-e73d-4823-a64f-ff0047ad7b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_BAT" input
+			(at 171.45 99.06 0)
+			(uuid "620b9381-c142-41ff-8686-a665eba8bd80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AX12-A" bidirectional
+			(at 171.45 81.28 0)
+			(uuid "5613eaa9-5181-478b-8d00-3823219030c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcb_2_ninja"
+				(path "/f798fd68-e00c-4f19-bfce-9e2c6b875d49"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
