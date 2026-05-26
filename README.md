@@ -2,6 +2,7 @@
 # STM32G4-Based Autonomous Robotics Firmware
 
 This repository contains the production-grade embedded firmware developed for an autonomous mobile robot built on the STMicroelectronics STM32G4 MCU architecture. Utilizing FreeRTOS for deterministic multi-threaded task management, the system integrates closed-loop locomotion control, dynamic power monitoring, distance telemetry tracking, and competition match-strategy execution.
+you can check the video from the match ( my team : Ares ENSEA ) here : https://www.youtube.com/watch?v=DIySdUV6Hos at 1:12:18/2:49:50 
 
 <img width="1537" height="2048" alt="69ca2a04-c7fc-42c1-9bf3-5930cfb1a68c" src="https://github.com/user-attachments/assets/f9fbb1dd-80be-46dd-b041-9cde56046e68" />
 
